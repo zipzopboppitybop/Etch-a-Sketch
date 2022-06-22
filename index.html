@@ -8,8 +8,18 @@
     <title>Etch-a-Sketch</title>
   </head>
   <body>
-    <button id="changeBtn">10 x 10</button>
-    <div id="container"></div>
+    <div id="buttons">
+      <button id="smallBtn">10 X 10</button>
+      <button id="normalBtn">16 X 16</button>
+      <button id="bigBtn">20 X 20</button>
+    </div>
+    <div
+      id="container"
+      style="
+        grid-template-columns: repeat(32, 1fr);
+        grid-template-rows: repeat(32, 1fr);
+      "
+    ></div>
     <script src="script.js"></script>
   </body>
 </html>
