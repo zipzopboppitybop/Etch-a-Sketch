@@ -1,6 +1,6 @@
 body {
-    width: 100;
-    min-height: 100;
+    width: 100vw;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -16,16 +16,27 @@ button {
     border: none;
     top: 180px;
     left: 1200px;
+    border: none;
+}
+
+#buttons {
+    position: relative;
+    left: 1080px;
+    top: 180px;
+    border: none;
 }
 
 #container {
+    align-items: center;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(16, 50px);
     background-color: white;
     border: none;
     position: relative;
     top: 200px;
-    left: 850px;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
 }
 
 div {
