@@ -4,6 +4,13 @@ body {
     overflow-x: hidden;
 }
 
+#buttons {
+    position: relative;
+    left: 1120px;
+    top: 180px;
+    border: none;
+}
+
 button {
     font-size: 16px;
     padding: 15px 5px;
@@ -12,17 +19,7 @@ button {
     color: white;
     border: none;
     background-color: black;
-    position: relative;
     border: none;
-    top: 180px;
-    left: 1200px;
-    border: none;
-}
-
-#buttons {
-    position: relative;
-    left: 1080px;
-    top: 180px;
     border: none;
 }
 
